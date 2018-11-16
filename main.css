@@ -1,0 +1,147 @@
+.arimo-font {
+    font-family: 'Arimo', sans-serif;
+}
+
+.first-last-name {
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+
+.header-row {
+    background: #003D74;
+}
+
+.designation {
+    font-size: 18px;
+    color: white;
+}
+
+.header-bottom-margin {
+    margin-bottom: 10px;
+}
+
+.content-margin {
+    margin-top: 1px;
+}
+
+.summary-margin {
+    margin-top: 10px;
+}
+
+.summary-text {
+    font-size: 14px;
+}
+
+.personal-details-column {
+    padding-top: 10px;
+    background: #F4F4F4;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    overflow: hidden;
+}
+
+.personal-details-title {
+    color: #05325B;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.topic-underliner {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border-top: 1px solid #D5D6D6; 
+}
+
+.personal-topic-name {
+    font-weight: 900;
+}
+
+.skill-name {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.skill-name ul {
+    padding-left: 15px !important;
+}
+
+.skill-rating {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.rating-checked {
+    color: #003D74;
+}
+
+.no-gutter {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.main-subsection-title {
+    color: #05325B;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.tenure {
+    font-weight: 900;
+}
+
+.job-role {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-weight: 900;
+}
+
+.company-name {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.work-details {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.work-details ul {
+    padding-left: 15px !important;
+}
+
+.publication-title {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.publication-row {
+    margin-bottom: 10px;
+}
+
+
+@media print {
+    .header-row{
+        background: #003D74 !important;
+    }
+
+    .first-last-name, .designation {
+        color: white !important;
+    }
+
+    .personal-details-column {
+        background: #F4F4F4 !important;
+    }
+
+    .personal-details-title {
+        color: #05325B !important;
+    }
+    
+    .main-subsection-title {
+        color: #05325B !important;
+    }
+
+    svg.rating-checked path {
+        fill: #05325B !important;
+    }
+}
